@@ -1,8 +1,9 @@
-你的邮箱地址@qq.com#!/bin/bash
+#!/bin/bash
 
 Title=""
 Message="Over"
 
+echo "Usage: ./brute.sh ip port server userdic passdic"
 
 target_scan="targets/scan"
 target_rslt="targets/rslt"
